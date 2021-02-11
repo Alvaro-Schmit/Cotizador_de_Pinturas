@@ -1,0 +1,30 @@
+.flexContainerBody {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.flexItemBody {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+button,
+select,
+input {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,8 @@
+Proyecto.
+Clear un simulador para presupuestos de trabajos de pintura. 
+El simulador será parte de un Sitio web de una empresa de pintura, donde el cliente podrá tener un presupuesto estimado a partir de los trabajos que éste pretende realizar.
+Para recibir la cotización final deberá ingresar una serie de datos y medidas que la pagina le ira solicitando a través de la programación con JavaScript.
+
+Alcance: Este proyecto pretende facilitarle al cliente una cotización estimada de los trabajos que desee hacer para luego de esto poder pedir una cotización precisa por parte de la empresa. 
+También puede ser una base para otros trabajos dentro del área de la construcción.
+La pagina seguira la estetica del sitio web ya construido.

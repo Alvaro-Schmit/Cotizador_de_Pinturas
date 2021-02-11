@@ -1,0 +1,21 @@
+.div-wide {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.div-wide-inside {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.element-border-apart {
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.top-margin-minimum {
+    padding-top: 15px !important;
+}
