@@ -12,12 +12,25 @@ function cambiosBoton() {
     $("#btnVolverACotizar").css("background-color", "rgb(156, 159, 189)")
     $(".flexContainerBody").fadeIn(800)
     $("#encabezado").fadeIn(800)
-    precioFinal.innerText = 0;
+    precioFinal.text = 0;
     $("#btnCotizar").css("background-color", "rgb(233, 234, 236)")
-
 
 }
 
-
 let btnVolverACotizar = document.getElementById("btnVolverACotizar")
 btnVolverACotizar.addEventListener("click", cambiosBoton)
+
+///---------------------------------------------------------------\\\
+
+
+function desplazarMe(titulo) {
+    $('html, body').animate({
+        scrollTop: $('#' + titulo).offset().top
+    }, 2000)
+}
+
+
+
+$('#llenarPlantilla').click(function() {
+    desplazarMe("plantilla")
+})

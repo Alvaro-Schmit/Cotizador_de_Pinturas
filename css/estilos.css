@@ -1,4 +1,5 @@
-.flexContainerBody {
+.flexContainerBody,
+.flexContainerBody02 {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -29,7 +30,7 @@
 
 select,
 input {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     width: 180px;
 }
 
@@ -41,4 +42,8 @@ input {
 #btnCotizar,
 #btnVolverACotizar {
     background-color: rgb(233, 234, 236);
+}
+
+#llenarPlantilla {
+    margin-left: 40%;
 }
