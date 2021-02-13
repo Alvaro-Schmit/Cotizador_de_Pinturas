@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrega.1</title>
     <link rel="stylesheet" href="./css/estilos.css">
-    <script defer src="./js/entrega1.js"></script>
+    <script defer src="./js/JQuery-3.5.1.min.js"></script>
     <script defer src="./js/parametros.js"></script>
     <script defer src="./js/objetos.js"></script>
     <script defer src="./js/variables.js"></script>
     <script defer src="./js/logicaCotizador.js"></script>
+    <script defer src="./js/animaciones.js"></script>
     <script defer src="./js/JQuery-3.5.1.min.js"></script>
 
 </head>
@@ -22,13 +23,13 @@
     <div class="flexContainerBody">
 
         <div class="flexItemBody" id="item3">
-            <h4>Ingresa los metros a pintar</h4>
+            <h4 class='pregunta'>Ingresa los metros a pintar</h4>
             <input type="number" id="metros" placeholder="metros" id="metrosUsusario"></td>
             <img src="https://placeimg.com/280/100/meters" alt="">
         </div>
 
         <div class="flexItemBody" id="item1">
-            <h4>Selecciona el material de la superficie</h4>
+            <h4 class='pregunta'>Selecciona el material de la superficie</h4>
             <select class="browser-default" id="materialIndex">Color nuevo que se aplicará
                 
             </select>
@@ -36,21 +37,21 @@
             <img src="https://placeimg.com/280/100/Texture" alt="">
         </div>
         <div class="flexItemBody" id="item2">
-            <h4>Selecciona el tipo de terminacion</h4>
+            <h4 class='pregunta'>Selecciona el tipo de terminacion</h4>
             <select class="browser-default" id="terminacionIndex">Color nuevo que se aplicará
             </select>
 
             <img src="https://placeimg.com/280/100/colors" alt="">
         </div>
         <div class="flexItemBody" id="item3">
-            <h4>Indica el estado actual de la superficie</h4>
+            <h4 class='pregunta'>Indica el estado actual de la superficie</h4>
             <select class="browser-default" id="estadoSupIndex">Color nuevo que se aplicará
                    </select>
 
             <img src="https://placeimg.com/280/100/architecture" alt="">
         </div>
         <div class="flexItemBody" id="item4">
-            <h4>Caracteristicas del color actual</h4>
+            <h4 class='pregunta'>Caracteristicas del color actual</h4>
             <select class="browser-default" id="colorActualIndex">Color nuevo que se aplicará
                 
             </select>
@@ -58,7 +59,7 @@
             <img src="https://placeimg.com/280/100/Contruction" alt="">
         </div>
         <div class="flexItemBody" id="item6">
-            <h4>Caracteristicas del colol que se aplicará</h4>
+            <h4 class='pregunta'>Caracteristicas del colol que se aplicará</h4>
             <select class="browser-default" id="colorNuevoIndex">Color nuevo que se aplicará
                 
             </select>
@@ -80,6 +81,9 @@
         <p>El costo que se muestra en el cotizador es un estimado Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae vitae optio, repellendus voluptas praesentium aut itaque unde quaerat fugiat obcaecati minima quibusdam hic et id similique,
             aliquid perferendis odio in.</p>
     </div>
+    <button id="btnVolverACotizar">
+        <h2>Volver a cotizar</h2>
+    </button>
 
 
 

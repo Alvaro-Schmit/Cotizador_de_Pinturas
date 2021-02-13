@@ -4,7 +4,7 @@
     align-content: space-between;
     justify-content: space-evenly;
     align-items: stretch;
-    background-color: lightgrey;
+    background-color: rgb(233, 234, 236);
     border: 1px solid black;
     margin-top: 10px;
 }
@@ -23,8 +23,22 @@
     align-items: flex-start;
 }
 
-button,
+.flexContainerBody.img {
+    margin-bottom: 20px;
+}
+
 select,
 input {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+}
+
+.pregunta {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#btnCotizar,
+#btnVolverACotizar {
+    background-color: rgb(233, 234, 236);
 }

@@ -9,23 +9,23 @@ function cargoElementSelect(comboSelect, arrayElement) {
 
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+$(document).ready(() => {
     cargoElementSelect(materialIndex, materialArray)
 })
 
-document.addEventListener("DOMContentLoaded", () => {
+$(document).ready(() => {
     cargoElementSelect(terminacionIndex, tipoSuperficieArray)
 })
 
-document.addEventListener("DOMContentLoaded", () => {
+$(document).ready(() => {
     cargoElementSelect(estadoSupIndex, CondicionSuperficieArray)
 })
 
-document.addEventListener("DOMContentLoaded", () => {
+$(document).ready(() => {
     cargoElementSelect(colorActualIndex, colorActualArray)
 })
 
-document.addEventListener("DOMContentLoaded", () => {
+$(document).ready(() => {
     cargoElementSelect(colorNuevoIndex, colorNuevoArray)
 })
 
@@ -36,4 +36,4 @@ function cotizar() {
     precioFinal.innerText = `$ ${objcotizar.calculoDePrecio()}`
 }
 
-btnCotizar.addEventListener("click", cotizar)
+$(btnCotizar).click(cotizar)

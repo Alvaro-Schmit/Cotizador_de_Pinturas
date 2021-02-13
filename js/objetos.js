@@ -1,3 +1,23 @@
+/////////////   TITULO Y SUBTITULO//////////////////
+
+function tituloOSutitulo(texto, tags) {
+
+    let tituloSubtitulo = document.getElementById('encabezado')
+    let title = document.createElement(tags)
+    title.textContent = texto;
+    tituloSubtitulo.appendChild(title);
+    title.style.textAlign = 'center';
+    return title;
+
+
+}
+
+tituloOSutitulo('Bienvenido', 'h1')
+tituloOSutitulo('Utiliza esta plantilla para cotizar tu trabajo', 'h2')
+
+////////////////////////////////////////////////////////
+
+/////////////////  OBJETOS DEL COTIZADOR   /////////////
 class CotizadorDePinturas {
     constructor(jsonMATERIAL, jsonCONDICIONESSUPERFICIE, jsonTIPOSSUPERFICIES, jsonCOLORACTUAL, jsonCOLORNUEVO, costoPinturaM2, materialclass, terminacionclass, estadoSupclass, colorActualclass, colorNuevoclass, metros, )
 
