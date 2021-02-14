@@ -42,8 +42,9 @@ input {
 #btnCotizar,
 #btnVolverACotizar {
     background-color: rgb(233, 234, 236);
+    margin-left: 2%;
 }
 
 #llenarPlantilla {
-    margin-left: 40%;
+    margin-left: 37%;
 }
