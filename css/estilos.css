@@ -1,5 +1,4 @@
-#flexContainerBody,
-#flexContainerBody02,
+.flexContainerBody,
 #flexContainerBody03 {
     display: flex;
     flex-wrap: wrap;

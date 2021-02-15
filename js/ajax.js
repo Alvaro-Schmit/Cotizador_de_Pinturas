@@ -22,8 +22,6 @@ function cargoImagenesCaja() {
 }
 setTimeout(() => {
     cargoImagenesCaja()
-    $("#flexContainerBody03").fadeIn("fast", () => {
-        $("#flexContainerBody02").fadeOut("fast")
-    })
+    $("#flexContainerBody03").fadeIn("fast")
 
 }, 2000)
