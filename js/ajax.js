@@ -15,7 +15,7 @@ function cargoImagenesCaja() {
             </div>
            `
             })
-            $("#flexContainerBody02").html(HTMLCard)
+            $("#flexContainerBody03").html(HTMLCard)
         }
     })
 
