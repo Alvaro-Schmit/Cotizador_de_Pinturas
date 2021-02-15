@@ -1,12 +1,15 @@
+let HTMLCard = ""
+let SerieOpelicula = ""
+let contenidoJSON = []
+
 function cargoImagenesCaja() {
 
     $.ajax({
         url: "js/datos.json",
         dataType: "json",
         success: function(data) {
-
             contenidoJSON = data
-            $.each(conitenidoJSON, function(i) {
+            $.each(contenidoJSON, function(i) {
                 HTMLCard += `<div class="flexItemBody" id="item3">
                 <img src="${contenidoJSON[i].img}" alt="${contenidoJSON[i].pregunta}">
             </div>

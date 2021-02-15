@@ -26,7 +26,7 @@ btnVolverACotizar.addEventListener("click", cambiosBoton)
 function desplazarMe(titulo) {
     $('html, body').animate({
         scrollTop: $('#' + titulo).offset().top
-    }, 2000)
+    }, 1600)
 }
 
 
