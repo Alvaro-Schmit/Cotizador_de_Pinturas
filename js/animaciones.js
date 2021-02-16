@@ -34,3 +34,8 @@ function desplazarMe(titulo) {
 $('#llenarPlantilla').click(function() {
     desplazarMe("plantilla")
 })
+
+
+$('#btnVolverACotizar').click(function() {
+    desplazarMe("plantilla")
+})
