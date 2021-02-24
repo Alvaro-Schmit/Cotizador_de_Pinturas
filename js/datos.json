@@ -1,7 +1,7 @@
  [{
          "id": "01",
          "pregunta": "Ingresa los metros a pintar",
-         "img": "../imagenes/livingPunta.jpg",
+         "img": "https://placeimg.com/480/200/arch/sepia",
          "input": "${<input type='text' name='firtsName' id'keysearch01' />",
          "especificaciones": "consectetur adipisicing elit. Accusamus, numquam quos architecto vitae, repudiandae ex earum molliti"
      },
@@ -10,7 +10,7 @@
      {
          "id": "06 ",
          "pregunta": "Ingresa sus caracteristicas",
-         "img": "../imagenes/CocinaIpico.jpg",
+         "img": "https://placeimg.com/480/200/arch",
          "input": "${<input type='text' name='firtsName' id'keysearch06' />",
          "especificaciones": "consectetur adipisicing elit. Accusamus, numquam quos architecto vitae, repudiandae ex earum molliti"
      }
