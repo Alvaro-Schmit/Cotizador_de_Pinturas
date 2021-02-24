@@ -10,7 +10,7 @@ function cargoImagenesCaja() {
         success: function(data) {
             contenidoJSON = data
             $.each(contenidoJSON, function(i) {
-                HTMLCard += `<div class="flexItemBody" id="item3">
+                HTMLCard += `<div class="flexItemBody01" id="item3">
                 <img src="${contenidoJSON[i].img}" alt="${contenidoJSON[i].pregunta}">
             </div>
            `

@@ -1,5 +1,7 @@
 $("#btnCotizar").click(function() {
     $("#btnCotizar").css("background-color", "rgb(156, 159, 189)")
+    $("#obtenerCotizacion").slideDown(2000)
+    $("#obtenerCotizacion").css("background-color", "rgba(181, 168, 204, 0.85)")
 
     $(".flexContainerBody").fadeOut(1000)
 
@@ -11,8 +13,10 @@ $("#btnCotizar").click(function() {
 function cambiosBoton() {
     $("#btnVolverACotizar").css("background-color", "rgb(156, 159, 189)")
     $(".flexContainerBody").fadeIn(800)
+    $("#obtenerCotizacion").slideUp(1000)
     $("#encabezado").fadeIn(800)
     precioFinal.text = 0;
+    metros.text = 0;
     $("#btnCotizar").css("background-color", "rgb(233, 234, 236)")
 
 }

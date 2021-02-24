@@ -1,3 +1,11 @@
+body {
+    background-image: url(../imagenes/planoHoriz.jpg);
+}
+
+h1 {
+    font-size: 50px;
+}
+
 .flexContainerBody,
 #flexContainerBody03 {
     display: flex;
@@ -5,13 +13,29 @@
     align-content: space-between;
     justify-content: space-evenly;
     align-items: stretch;
-    background-color: rgb(233, 234, 236);
+    background-color: rgba(181, 168, 204, 0.85);
+    ;
     border: 1px solid black;
     margin-top: 10px;
 }
 
-.flexItemBody {
-    background-color: cornflowerblue;
+.flexItemBody01 {
+    background-color: rgba(93, 105, 168, 0.9);
+    ;
+    width: 500px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flexItemBody02 {
+    background-color: rgba(93, 105, 168, 0.8);
     width: 300px;
     height: 200px;
     margin: 10px 10px 10px 10px;
@@ -45,6 +69,19 @@ input {
     margin-left: 2%;
 }
 
-#llenarPlantilla {
-    margin-left: 37%;
+#divBoton01 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#obtenerCotizacion {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
 }
